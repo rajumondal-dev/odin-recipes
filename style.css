@@ -1,0 +1,47 @@
+*{
+    font-family: "Akaya Telivigala";
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+body{
+    width: 900px;
+    margin: auto;
+    background: lightblue;
+}
+
+img{
+    width: 900px;
+    height: auto;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.gallery img {
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-radius: 30px;
+}
+
+.desc{
+    text-align: center;
+}
+
+.gallery {
+    width: 300px;
+    display: inline-block;
+    float: left;
+    margin: 0px;
+}

@@ -3,21 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Akaya Telivigala">
     <title>Odin Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
+    <h1 class="title">Odin Recipes</h1>
 
-    <ul>
-        <li>
-            <a href="recipes/lasagna.html">Lasagna</a>
-        </li>
-        <li>
-            <a href="recipes/fried-chicken.html">Fried Chicken</a>
-        </li>
-        <li>
-            <a href="recipes/lemonade.html">Lemonade</a>
-        </li>
-    </ul>
+    <div class="recipes-box">
+        <div class="gallery lasagna">
+            <a href="recipes/lasagna.html"><img src="images/lasagna2.jpg" alt="lasagna"></a>
+            <div class="desc">Lasagna</div>
+        </div>
+
+        <div class="gallery chicken">
+            <a href="recipes/fried-chicken.html"><img src="images/fried-chicken2.jpg" alt="fried chicken"></a>
+            <div class="desc">Fried Chicken</div>
+        </div>
+
+        <div class="gallery lemonade">
+            <a href="recipes/lemonade.html"><img src="images/lemonade2.jpg" alt="lemonade"></a>
+            <div class="desc">Lemonade</div>
+        </div>
+    </div>
+
 </body>
 </html>
